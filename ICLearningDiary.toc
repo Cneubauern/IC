@@ -1,0 +1,16 @@
+\select@language {ngerman}
+\contentsline {section}{II \hspace {0.35em}Inhaltsverzeichnis}{II}{section*.1}
+\contentsline {section}{\numberline {II}Abbildungsverzeichnis}{III}{section.II}
+\contentsline {section}{\numberline {III}Abk\IeC {\"u}rzungsverzeichnis}{IV}{section.III}
+\contentsline {section}{\numberline {1}Einleitung}{1}{section.1}
+\contentsline {subsection}{\numberline {1.1}Ausgangslage}{1}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Idee}{1}{subsection.1.2}
+\contentsline {section}{\numberline {2}Usability Analyse}{2}{section.2}
+\contentsline {subsection}{\numberline {2.1}Stand}{2}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Positiv}{2}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}Verbesserungen}{2}{subsection.2.3}
+\contentsline {section}{\numberline {3}Umsetzung}{2}{section.3}
+\contentsline {subsection}{\numberline {3.1}Probleme}{2}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}L"osungen}{2}{subsection.3.2}
+\contentsline {section}{\numberline {4}Fazit}{2}{section.4}
+\contentsline {section}{\numberline {5}Ausblick}{2}{section.5}
