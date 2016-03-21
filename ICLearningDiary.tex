@@ -13,18 +13,21 @@
 \usepackage{setspace}
 \usepackage[right]{eurosym}
 \usepackage[printonlyused]{acronym}
-\usepackage{subfig}
+%\usepackage{subfig}
 \usepackage{floatflt}
 \usepackage[usenames,dvipsnames]{color}
 \usepackage{colortbl}
 \usepackage{paralist}
 \usepackage{array}
+\usepackage{subcaption}
+\usepackage{wrapfig}
 \usepackage{titlesec}
 \usepackage{parskip}
 \usepackage[right]{eurosym}
 \usepackage{picins}
 \usepackage[subfigure,titles]{tocloft}
 \usepackage[pdfpagelabels=true]{hyperref}
+\usepackage[export]{adjustbox}
 
 \usepackage{listings}
 \lstset{basicstyle=\footnotesize, captionpos=b, breaklines=true, showstringspaces=false, tabsize=2, frame=lines, numbers=left, numberstyle=\tiny, xleftmargin=2em, framexleftmargin=2em}
@@ -58,7 +61,7 @@
 \rhead{\thesection\space\contentsname}
 \lfoot{Independent Coursework}
 \cfoot{}
-\rfoot{\ \linebreak Page \thepage}
+\rfoot{\ \linebreak Seite \thepage}
 \renewcommand{\headrulewidth}{0.4pt}
 \renewcommand{\footrulewidth}{0.4pt}
 
@@ -162,37 +165,16 @@
 % ----------------------------------------------------------------------------------------------------------
 % Einleitung
 % ----------------------------------------------------------------------------------------------------------
-\section{Einleitung}
-\subsection{Ausgangslage}
-Im Winter-/Sommersemester 14/15 entstand in Zusammenarbeit mit der Firma Commercetools das Masterprojekt \enquote{neeedo.com}. 
-Die Idee dieses Projektes war es eine Nextgeneration e-Commerce L"osung zu entwickeln, die alternative Ideen und modernen Technologien zusammenbringen sollte. 
-
-Das Ergebnis war eine Verkaufsplattform, die die Idee der Suche/Biete Karten bekannt vom klassischen \enquote{Schwarzen Brett} aufgreift um K"aufer und Verk"aufer zusammenzubringen. 
-Hier wurden neue Ans"atze f"ur das Suchen und Anbieten von Produkten angewendet und durch Intelligente Matching-Verfahren zusammengebracht.
-Die Umsetzung dieser Plattform entstand durch eine Scala/Play-API, die die Verbindung zum Commercetools-Service herstellt, der die Datenhaltung und weitere interne Funktionen bereitstellt. 
-In dieser API finden zudem alle Operationen zum Suchen und Erstellen von Artikeln statt, sowie das Matching und andere Funktionen. Welche Funktionen von der API genau erf"ullt werden wird in der Umsetzung ersichtlich.
-
-Auf dieser API wurden eine WebApplikation und eine native Android Applikation aufgebaut, die die Schnittstelle zum User herstellen. 
-Mit diesen wurde versucht den Plan der St"arkung des lokalen Marktes umzusetzen. 
-
-\subsection{Idee}
-Dies f"uhrte zu der Idee hinter dieser Arbeit: 
-W"ahrend des Projekts wurde die Entwicklung einer iOS Applikation vernachl"assigt, bzw. nicht forciert. 
-Dies soll nun nachgeholt werden. 
-
-Da, wie die Analyse der Android Applikation zeigen wird, markante Schw"achen in der Usability der Android Applikation existieren, soll ein Schwerpunkt dieser Arbeit sein diese zu verbessern bzw. ein neues Konzept zu entwickeln mit dem sich diese Schw"achen ausgemerzt werden.
-
+\include{./Einleitung}
 % ----------------------------------------------------------------------------------------------------------
 % Usability
 % ----------------------------------------------------------------------------------------------------------
-\section{Usability Analyse}
-\subsection{Stand}
-\subsection{Positiv}
-\subsection{Verbesserungen}
+\include{./Usability}
 
 % ----------------------------------------------------------------------------------------------------------
 % Umsetzung
 % ----------------------------------------------------------------------------------------------------------
+
 \section{Umsetzung}
 \subsection{Probleme}
 \subsection{L"osungen}
