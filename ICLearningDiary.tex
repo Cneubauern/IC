@@ -119,8 +119,8 @@
 \tableofcontents
 \pagebreak
 \rhead{VERZEICHNISSE}
-\listoffigures
-\pagebreak
+%\listoffigures
+%\pagebreak
 %\listoftables
 %\pagebreak
 %\renewcommand{\lstlistlistingname}{Listing-Verzeichnis}
@@ -129,15 +129,6 @@
 % ----------------------------------------------------------------------------------------------------------
 % Abkürzungen
 % ----------------------------------------------------------------------------------------------------------
-\section{Abkürzungsverzeichnis}
-\begin{acronym}[OSGi] % längste Abkürzung steht in eckigen Klammern
-	\setlength{\itemsep}{-\parsep} % geringerer Zeilenabstand
-	\acro{MOOC}{Massive Open Online Course}
-	\acro{IC}{Independent Coursework}
-	\acro{RWD}{Responsive Web Design}
-	\acro{CPL}{Characters per line}
-\end{acronym}
-\newpage
 
 % ----------------------------------------------------------------------------------------------------------
 % Inhalt
@@ -170,25 +161,20 @@
 % Usability
 % ----------------------------------------------------------------------------------------------------------
 \include{./Usability}
+\include{./UsabilityKonzept}
 
 % ----------------------------------------------------------------------------------------------------------
 % Umsetzung
 % ----------------------------------------------------------------------------------------------------------
-
-\section{Umsetzung}
-\subsection{Probleme}
-\subsection{L"osungen}
+\include{./Umsetzung}
 
 % ----------------------------------------------------------------------------------------------------------
 % Fazit
 % ----------------------------------------------------------------------------------------------------------
-\section{Fazit}
-
+\include{./Ergebnis}
 
 % ----------------------------------------------------------------------------------------------------------
 % Ausblick
 % ----------------------------------------------------------------------------------------------------------
-\section{Ausblick}
-
 
 \end{document}

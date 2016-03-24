@@ -1,0 +1,99 @@
+\section{Usability-Konzept}
+
+Basieren auf den Ergebnissen der IST-Analyse kann ein Konzept erarbeitet werden, dass die erkannten St"arken aufgreift und versucht die erkannten Schw"achen zu verbessern.
+
+\subsection{Vorbetrachtung}
+
+Aus der IST-Analyse und der gegebenen API lassen sich die folgenden Funktionen, bzw. Use Cases ableiten, die in der App umgesetzt werden sollen.
+
+\subsubsection{UseCases}
+
+\subsubsection*{Benutzer}
+\begin{itemize}
+\item Benutzer anlegen \vspace{-0,2cm}
+\item Benutzer l"oschen \vspace{-0,2cm}
+\item Benutzer ausloggen \vspace{-0,2cm}
+\end{itemize}
+
+\subsubsection*{Angebote}
+\begin{itemize}
+\item Angebote erstellen \vspace{-0,2cm}
+\item Angebote aktualisieren  \vspace{-0,2cm}
+\item Angebote l"oschen \vspace{-0,2cm}
+\item Eigene Angebote anzeigen \vspace{-0,2cm}
+\end{itemize}
+
+\subsubsection*{Gesuche}
+\begin{itemize}
+\item Gesuche erstellen \vspace{-0,2cm}
+\item Gesuche aktualisieren \vspace{-0,2cm}
+\item Gesuche l"oschen \vspace{-0,2cm}
+\item Eigene Gesuche anzeigen \vspace{-0,2cm}
+\end{itemize}
+
+\subsubsection*{Favoriten}
+\begin{itemize}
+\item Favoriten hinzuf"ugen \vspace{-0,2cm}
+\item Favoriten entfernen \vspace{-0,2cm}
+\item Favoriten anzeigen \vspace{-0,2cm}
+\end{itemize}
+
+\subsubsection*{Matching}
+\begin{itemize}
+\item Zeige passende Angebote \vspace{-0,2cm}
+\end{itemize}
+
+\subsubsection{Wie sollen diese umgesetzt werden.}
+
+\subsubsection*{Benutzer}
+
+Wie in der IST- Analyse bereits erw"ahnt, ist der UseCase des Nutzer-Anlegens, bzw. des User Logins bereits in einer praktikablen Weise umgesetzt.
+Diese soll auch in der hier entstehenden App "ubernommen werden. 
+
+Das Ausloggen ist in der Android Applikation durch einen Button in der Men"uleiste oben umgesetzt, jedoch besteht keine M"oglichkeit seinen Account zu l"oschen. 
+
+In der geplanten App sollen diese beiden Funktionen zusammen in einem Men"u angeboten werden. 
+
+\subsubsection*{Angebote, Gesuche erstellen/bearbeiten/l"oschen}
+
+Grunds"atzlich l"asst sich an der Umsetzung des Erstellens und Aktualisierens der Angebote und Gesuche nicht viel aussetzen, au"ser einzelner Designfehler. 
+Die Umsetzung mit Formularen l"asst sich nur schwer umgehen und w"urde kaum Vorteile bieten. 
+
+Allerdings sind diese Formulare im aktuellen Zustand nicht besonders gut strukturiert und m"ussen angepasst werden, um Uneindeutigkeiten zu umgehen. 
+
+Das L"oschen der Elemente geschieht durch einen Button auf jeweiligen Ansicht.
+Dies l"asst sich ebenfalls aufgreifen. 
+
+In iOS haben sich inzwischen aber auch, gerade in Tabellendarstellungen, Alternative M"oglichkeiten entwickelt. 
+Diese sollen hier ebenfalls zum Einsatz kommen. 
+
+\subsubsection*{Favoriten}
+
+Das Hinzuf"ugen von Favoriten kann nur aus der jeweiligen Offer Darstellung geschehen.  Daran l"asst sich nichts "andern, da die API aktuell nur Anfgebote als Favorit zul"asst. 
+In der aktuellen Umsetzung geschieht das durch einen \enquote{Stern}-Button auf der jeweiligen Karte. 
+
+Der Stern ist eine bekannte Art der Darstellung f"ur Markierungen und Favoriten. 
+Dies kann so "ubernommen werden. 
+
+\subsubsection*{Favoriten, (Eigene) Angebote, (Eigene) Gesuche anzeigen}
+
+Um eine "Ubersicht seiner eigenen Favoriten, Angebote und Gesuche darzustellen wurde in der Android Applikation eine Listen-Darstellung gew"ahlt. 
+Diese zeigt sich als funktional und sinnvoll. 
+
+Die Detail-Darstellung der einzelnen Elemente geschieht durch eine Karten-Darstellung auf der alle relevanten Informationen angezeigt werden.
+Die grunds"atzliche Art der Darstellung dieser Elemente ist passend.
+In dieser Arbeit sollen lediglich "Anderungen an inneren Struktur der Elemente durchgef"uhrt werden.
+
+Im Rahmen der "Anderungen an der M"en"f"uhrung wird sich der Zugang zu diesen Ansichten "andern.
+
+\subsubsection*{Matching}
+
+In der Android Applikation werden die gematchten Angebote in der Tinder-"ahnlichen Stapeldarstellung dargestellt. 
+Diese Darstellung entwickelt aktuell eine gewisse Beliebtheit und wird auch in vielen anderen Apps angeboten.
+Es l"asst sich auch kein grundlegender Fehler hieran erkennen daher kann sie in einer angepassten Weise "ubernommen werden.
+
+\subsubsection*{Men"u}
+
+Eine gro"se Schw"ache der Android Applikation war das viel zu gro"se Seitenmen"u, dass keinen besonderen Zweck erf"ullt. 
+Da die angebotenen Funktionen hier sehr begrenzt sin bietet es sich an dieses durch eine TabBar zu ersetzen. 
+Diese hat den Vorteil, dass die Funktionen immer pr"asent sind und keinen zus"atzlichen Platz ben"otigen

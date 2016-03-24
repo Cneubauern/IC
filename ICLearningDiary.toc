@@ -1,7 +1,5 @@
 \select@language {ngerman}
 \contentsline {section}{II \hspace {0.35em}Inhaltsverzeichnis}{II}{section*.1}
-\contentsline {section}{\numberline {II}Abbildungsverzeichnis}{III}{section.II}
-\contentsline {section}{\numberline {III}Abk\IeC {\"u}rzungsverzeichnis}{IV}{section.III}
 \contentsline {section}{\numberline {1}Einleitung}{1}{section.1}
 \contentsline {subsection}{\numberline {1.1}Ausgangslage}{1}{subsection.1.1}
 \contentsline {subsubsection}{\numberline {1.1.1}Die Firma Commercetools}{1}{subsubsection.1.1.1}
@@ -9,17 +7,28 @@
 \contentsline {subsection}{\numberline {1.2}Idee}{1}{subsection.1.2}
 \contentsline {section}{\numberline {2}Usability Analyse}{3}{section.2}
 \contentsline {subsection}{\numberline {2.1}IST - Stand}{3}{subsection.2.1}
-\contentsline {subsubsection}{\numberline {2.1.1}Login}{3}{subsubsection.2.1.1}
-\contentsline {subsubsection}{\numberline {2.1.2}Start}{4}{subsubsection.2.1.2}
-\contentsline {subsubsection}{\numberline {2.1.3}Men"u}{5}{subsubsection.2.1.3}
-\contentsline {subsubsection}{\numberline {2.1.4}Agebote und Gesuche erstellen }{6}{subsubsection.2.1.4}
-\contentsline {subsubsection}{\numberline {2.1.5}Matching}{7}{subsubsection.2.1.5}
-\contentsline {subsubsection}{\numberline {2.1.6}Eigene anzeigen}{8}{subsubsection.2.1.6}
-\contentsline {subsection}{\numberline {2.2}Fazit}{8}{subsection.2.2}
-\contentsline {subsubsection}{\numberline {2.2.1}Positiv}{9}{subsubsection.2.2.1}
-\contentsline {subsubsection}{\numberline {2.2.2}Negativ}{9}{subsubsection.2.2.2}
-\contentsline {section}{\numberline {3}Umsetzung}{10}{section.3}
-\contentsline {subsection}{\numberline {3.1}Probleme}{10}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}L"osungen}{10}{subsection.3.2}
-\contentsline {section}{\numberline {4}Fazit}{10}{section.4}
-\contentsline {section}{\numberline {5}Ausblick}{10}{section.5}
+\contentsline {subsubsection}{\numberline {2.1.1}Login}{4}{subsubsection.2.1.1}
+\contentsline {subsubsection}{\numberline {2.1.2}Start}{5}{subsubsection.2.1.2}
+\contentsline {subsubsection}{\numberline {2.1.3}Men"u}{6}{subsubsection.2.1.3}
+\contentsline {subsubsection}{\numberline {2.1.4}Agebote und Gesuche erstellen }{7}{subsubsection.2.1.4}
+\contentsline {subsubsection}{\numberline {2.1.5}Matching}{8}{subsubsection.2.1.5}
+\contentsline {subsubsection}{\numberline {2.1.6}\enquote {Eigene} anzeigen}{9}{subsubsection.2.1.6}
+\contentsline {subsection}{\numberline {2.2}Fazit}{9}{subsection.2.2}
+\contentsline {subsubsection}{\numberline {2.2.1}Positiv}{10}{subsubsection.2.2.1}
+\contentsline {subsubsection}{\numberline {2.2.2}Negativ}{10}{subsubsection.2.2.2}
+\contentsline {section}{\numberline {3}Usability-Konzept}{11}{section.3}
+\contentsline {subsection}{\numberline {3.1}Vorbetrachtung}{11}{subsection.3.1}
+\contentsline {subsubsection}{\numberline {3.1.1}UseCases}{11}{subsubsection.3.1.1}
+\contentsline {subsubsection}{\numberline {3.1.2}Wie sollen diese umgesetzt werden.}{12}{subsubsection.3.1.2}
+\contentsline {section}{\numberline {4}Umsetzung}{14}{section.4}
+\contentsline {subsection}{\numberline {4.1}Vorraussetzungen}{14}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Realisierung}{15}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Wie wurden die Use Cases umgesetzt?}{16}{subsection.4.3}
+\contentsline {subsubsection}{\numberline {4.3.1}LandingScreen}{17}{subsubsection.4.3.1}
+\contentsline {subsection}{\numberline {4.4}Probleme und L"osungen}{20}{subsection.4.4}
+\contentsline {subsubsection}{\numberline {4.4.1}Asynchronous Programming}{20}{subsubsection.4.4.1}
+\contentsline {subsubsection}{\numberline {4.4.2}Kamera}{21}{subsubsection.4.4.2}
+\contentsline {section}{\numberline {5}Ergebnis und Ausblick }{22}{section.5}
+\contentsline {subsection}{\numberline {5.1}Ergebnis}{22}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Ausblick}{23}{subsection.5.2}
+\contentsline {subsection}{\numberline {5.3}Res"umee}{23}{subsection.5.3}
